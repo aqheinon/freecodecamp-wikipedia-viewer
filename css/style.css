@@ -1,0 +1,43 @@
+h2 {
+  text-align: center;
+}
+
+.w {
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 2.5em;
+}
+
+.title {
+  margin-top: 2.5em;
+}
+
+button {
+  width:49%;
+  min-width: 150px;
+}
+
+.search-button {
+  margin-right: 2%;
+}
+
+.search-item {
+  text-align: left;
+  padding: 1em 1em 0em 1em;
+  margin-top: 1em;
+  border: 1px solid;
+  border-color: #bbb;
+  border-radius: 4px;
+}
+
+div.search-item:hover {
+  border-color: #555;
+  color: #bbb;
+}
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+    color: #000;
+}

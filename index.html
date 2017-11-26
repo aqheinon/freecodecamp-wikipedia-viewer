@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Wikipedia Viewer</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+  
+<div class="row">
+    <div class="six columns offset-by-three">
+      <h2 class="header"><i class="w fa fa-wikipedia-w fa-lg"></i>ikipedia Viewer</h2>
+      <input class="u-full-width" type="text" id="search" onkeypress="enter(event);">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="six columns offset-by-three">
+      <button class="search-button" onclick="wikiSearch();"><i class="fa fa-search fa-lg search"> search</i></button><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><button><i class="fa fa-random fa-lg"> random</i></button></a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="six columns offset-by-three">
+      <div class="results"></div>
+    </div>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
